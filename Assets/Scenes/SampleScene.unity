@@ -133,7 +133,8 @@ GameObject:
   - component: {fileID: 242381138}
   - component: {fileID: 242381140}
   - component: {fileID: 242381137}
-  m_Layer: 0
+  - component: {fileID: 242381141}
+  m_Layer: 1
   m_Name: Cobra_1_Cabeca
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -191,7 +192,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.99, y: 0.99}
+  m_Size: {x: 0.98, y: 0.98}
   m_EdgeRadius: 0
 --- !u!212 &242381139
 SpriteRenderer:
@@ -262,6 +263,21 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &242381141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 242381135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0b090ff630c249499e6318535d33a65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maca_contato: {fileID: 2146561687}
+  corpo_Cobra: {fileID: 7714943585297313264, guid: 7412ea48ca7d9c442adb99496f42d979,
+    type: 3}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -354,8 +370,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1314280849}
-  m_Layer: 0
-  m_Name: Cobra_1
+  m_Layer: 1
+  m_Name: Cobras
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -419,5 +435,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27ebf80452a31884eb007f4d5ef1668b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maca: {fileID: 0}
-  cobra_contato: {fileID: 0}
+  maca: {fileID: 8976162160206748489, guid: bf0d0e73f933d6648a49a1e2f3a30cf4, type: 3}
+  cobra_contato: {fileID: 242381140}
+  parent: {fileID: 2146561687}

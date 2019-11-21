@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 9071949572096008321}
   - component: {fileID: 6932657887901079426}
-  - component: {fileID: 7704856239735925653}
   m_Layer: 0
   m_Name: Maca
   m_TagString: Untagged
@@ -68,8 +67,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 09a4c1fd2312354478f2ed2561d5fdfe, type: 3}
+  m_SortingOrder: -1
+  m_Sprite: {fileID: 21300000, guid: 1e067e27d6d0d934680d2feef2e96775, type: 3}
   m_Color: {r: 0.754717, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -77,19 +76,6 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &7704856239735925653
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8976162160206748489}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27ebf80452a31884eb007f4d5ef1668b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maca: {fileID: 8976162160206748489}
